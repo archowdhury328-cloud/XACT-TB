@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the original paper. This repository is an independent documented reconstruction."
+title: "XACT-TB (documented reconstruction)"
+type: software
+authors:
+  - family-names: Chy
+    given-names: Md Asikur Rahman
+    affiliation: "Department of Business Administration, International American University, Los Angeles, CA, USA"
+preferred-citation:
+  type: article
+  title: "XACT-TB an explainable hybrid CNN–swin transformer framework for tuberculosis screening from chest X-ray images"
+  authors:
+    - {family-names: Sikder, given-names: Tawfiqur Rahman}
+    - {family-names: Chy, given-names: Md Asikur Rahman}
+    - {family-names: Hossain, given-names: Md Jubayar}
+    - {family-names: Uddin, given-names: Syed Mohammed Muhive}
+    - {family-names: Faruk, given-names: Md Imtiaz}
+    - {family-names: Manik, given-names: Mia Md Tofayel Gonee}
+    - {family-names: Adnan, given-names: Mohammed}
+  journal: "Discover Artificial Intelligence"
+  volume: 6
+  issue: 1030
+  year: 2026
+  doi: "10.1007/s44163-026-01509-4"

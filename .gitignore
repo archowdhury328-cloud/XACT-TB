@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.env
+# data / artifacts: never tracked (see docs/artifact_policy.md)
+data/
+cache/
+runs/
+checkpoints/
+bundles/
+*.pt
+*.pth
+*.joblib
+*.npy
+*.npz
+manifests/private/
+predictions/private/
+*.dcm
+*.png
+*.jpg
+*.jpeg
+!docs/figures/*.png

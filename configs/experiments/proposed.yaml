@@ -1,0 +1,29 @@
+# Documented reconstruction defaults. Every value not stated in the paper is listed in
+# docs/assumptions_and_deviations.md.
+run_name: proposed_reconstruction
+pre:
+  size: 224
+  clahe: true
+  clahe_clip: 2.0
+  clahe_grid: 8
+  bm3d: true
+  bm3d_sigma: 0.05
+  bm3d_lambda_thr3d: 2.7
+  resize_order: before_denoise
+  cache_dir: cache/preproc
+train:
+  epochs: 40
+  batch_size: 16
+  lr: 0.0001
+  clip_norm: 0.2
+  w_normal: 1.0
+  w_tb: 1.5
+  sched_factor: 0.5
+  sched_patience: 5
+  monitor: val_loss
+  select_metric: val_loss
+  seed: 42
+swin:
+  name: swin_small_patch4_window7_224
+  pretrained: true
+  freeze: false
